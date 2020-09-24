@@ -39,11 +39,11 @@ body{
     top: -70px;
     left: 0;
     right: 0;
-    background: #000;
+    background: #222222;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
-    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 0.50);
     line-height: 46px;
 
 }
@@ -55,10 +55,11 @@ body{
     border-radius: 12px;
     position: relative;
     bottom: -200px;
-    background: #fff;
     padding: 36px;
     box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
     margin-bottom: 64px;
+    background: url('bg.png');
+    background-size: cover;
 }
 .media-body{
 	vertical-align: middle;
@@ -107,10 +108,17 @@ body{
 	margin-bottom: 6px;
 }
 .info-me p{
-	padding-left: 15px;
-	color: black;
-	margin-bottom: 15px;
-	margin-top: -4px;
+	margin-left: 14px;
+    color: #222222;
+    margin-bottom: 0;
+}
+.info-me i{
+    margin-top: 8px;
+    font-size: 22px;
+    color: #222222;
+}
+.fa-medal{
+    color: #efaf3e !important;
 }
 .sosmed-me{
 	margin-top: 30px;
@@ -120,18 +128,20 @@ body{
 	margin-right: 8px;
 }
 .sosmed-me li a{
-	line-height: 40px;
-    width: 40px;
     background: #e8e8e8;
-    border-radius: 5px;
-    display: inline-block;
+    border-radius: 6px;
+    display: grid;
+    padding: 14px;
     text-align: center;
     color: #fff;
-    font-size: 16px;
+	transition: 0.3s;
+    font-size: 24px;
 }
 .sosmed-me li a:hover{
 	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-	transition: 0.2s
+    transition: 0.3s;
+    transform: scale(1.06);
+    text-decoration: none;
 }
 .text-me{
 	margin-top: 64px;
