@@ -151,6 +151,7 @@ body{
     display: block;
     margin: auto;
     margin-top: 64px;
+    width: 380px;
 }
 @media (max-width:500px){
     .banner-area .d-flex{
@@ -161,5 +162,8 @@ body{
     }
     .box-me{
         bottom: -160px;
+    }
+    .box-me img{
+    width: 260px;
     }
 }
