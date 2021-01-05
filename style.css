@@ -48,7 +48,7 @@ body{
 
 }
 .banner-area{
-    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+     background: linear-gradient(to right, #8360c3, #2ebf91);
 }
 .box-me{
     min-height: 700px;
@@ -139,7 +139,7 @@ body{
     font-size: 24px;
 }
 .sosmed-me li a:hover{
-    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+     background: linear-gradient(to right, #8360c3, #2ebf91);
 	transition: 0.3s;
     text-decoration: none;
     font-size: 24px;
