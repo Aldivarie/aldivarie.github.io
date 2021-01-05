@@ -108,7 +108,11 @@ body{
     margin-bottom: 6px;
 }
 .info-me p{
+<<<<<<< HEAD
     margin-left: 14px;
+=======
+	margin-left: 14px;
+>>>>>>> 3e07b4ce599badb2cb13eaba21ac842a5c315bbc
     color: #222222;
     margin-bottom: 0;
 }
@@ -134,11 +138,19 @@ body{
     padding: 14px;
     text-align: center;
     color: #fff;
+<<<<<<< HEAD
     transition: 0.3s;
     font-size: 24px;
 }
 .sosmed-me li a:hover{
     background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+=======
+	transition: 0.3s;
+    font-size: 24px;
+}
+.sosmed-me li a:hover{
+	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+>>>>>>> 3e07b4ce599badb2cb13eaba21ac842a5c315bbc
     transition: 0.3s;
     transform: scale(1.06);
     text-decoration: none;
