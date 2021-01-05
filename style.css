@@ -166,4 +166,10 @@ body{
     .box-me img{
     width: 260px;
     }
+    .info-me p{
+        font-size: 14px;
+    }
+    .text-me h3{
+        font-size: 44px;
+    }
 }
