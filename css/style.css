@@ -151,6 +151,9 @@ body{
     color: #777;
 }
 
+.fp-overflow{
+    padding: 50px 16px;
+}
 .fp-watermark{
     display: none !important;
 }
@@ -159,5 +162,13 @@ body{
 
 }
 @media only screen and (max-width: 600px) {
-
+    #typewriter-2{
+        font-size: .7em;
+    }
+    .text-title:after{
+        width: 12%;
+    }
+    .text-sub{
+        width: 100%;
+    }
 }
